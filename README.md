@@ -2,4 +2,6 @@
 
 Página web del Instituto Alfa Carabobo: Ampliando conocimientos de programación web con un tema delicioso  
 
-### 
+### Objetivos
+
+- Crar un pagina web 
