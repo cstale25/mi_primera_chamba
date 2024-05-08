@@ -4,4 +4,4 @@ Página web del Instituto Alfa Carabobo: Ampliando conocimientos de programació
 
 ### Objetivos
 
-- Mi pagina es genial bakhs
+- Aprender a usar comandos
