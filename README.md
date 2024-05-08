@@ -5,3 +5,4 @@ Página web del Instituto Alfa Carabobo: Ampliando conocimientos de programació
 ### Objetivos
 
 - Aprender a usar comandos
+- Prabar sincronizacion de ramas 
