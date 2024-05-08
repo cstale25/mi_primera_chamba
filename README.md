@@ -4,4 +4,4 @@ Página web del Instituto Alfa Carabobo: Ampliando conocimientos de programació
 
 ### Objetivos
 
-- Crar un pagina web 
+- Mi pagina es genial bakhs
