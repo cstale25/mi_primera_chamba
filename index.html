@@ -43,17 +43,19 @@
 
     <link rel="shortcut icon" href="/assets/" type="image/x-icon">
 
+    <link rel="stylesheet" href="/style.css">
+
 </head>
 
 <body>
 
-    <header>
+    <header class="navbar"> 
 
-        <nav>
+        <nav class="navbar__nav">
 
             <img src="/assets/hamburguesa.svg" alt="icon de hamburguesa">
 
-            <ul>
+            <ul class="navbar__nav__list">
 
                 <li>Inicio</li>
                 <li>Servicios</li>
@@ -70,7 +72,7 @@
     <main>
 
         <!-- Jumbotron -->
-        <section>
+        <section class="Jumbotron">
 
             <p>Tu Dosis Diaria de Felicidad en Cada Mordida</p>
             <h1>Visita nuestro local y prueba unas buenas hamburguesas o simplemente pide a Domicilio y disfruta sin
@@ -81,7 +83,7 @@
 
         <section>
 
-            <h3>Por que preferirnos?</h3>
+            <!-- <h3>Por que preferirnos?</h3> -->
 
             <div>
 
@@ -236,7 +238,7 @@
             <div>
                 <h3>También puedes elegir los ingredientes que más te gusten y arma tu hamburguesa ideal.</h3>
                 <div>
-                    <button>Barra de pedido</button>
+                    for
                 </div>
             </div>
 
@@ -255,6 +257,73 @@
                 inolvidable!
             </p>
             <button>DELIVERY</button>
+
+        </section>
+
+        <section>
+            <!--  -->
+            <form action="/">
+                <input type="text" name="texto">
+            </form>
+
+            <!--  -->
+            <form action="" method="get">
+                <input type="text" name="nombre">
+                <input type="number" name="numeros">
+                <input type="date" name="fechas">
+
+                <button type="submit">ENVIAR</button>
+            </form>
+
+            <!-- Formulario de Labels -->
+            <form action="/" method="post">
+                <label for="nombre">
+                    Nombre:
+                    <input type="hamburguesa" name="nombre" id="nombre" required>
+                </label>
+
+                <label for="email">
+                    <input type="email" name="email" id="email" required>
+                </label>
+
+                <label for="pass">
+                    Contraseña:
+                    <input type="password" name="pass" id="pass" required placeholder="que no sea 1234">
+                </label>
+
+                <label for="nacimiento">
+                    Fecha de nacimiento:
+                    <input type="date" name="nacimie" id="nacimiento" required>
+                </label>
+
+                <label for="telefono">
+                    Telefono:
+                    <input type="tel" name="telefono" id="teleofno" required>
+                </label>
+
+                <label for="condiciones">
+                    Aceptas los terminos y condiciones
+                    <input type="checkbox" name="condiciones" id="condiciones">
+                </label>
+
+                <button type="submit">Registrarse</button>
+
+                <!-- Formulario para searchbar -->
+
+
+            </form>
+
+            <form action="https://reqres.in/api/login" method="post">
+                <label for="email">
+                    Correo Electronico:
+                    <input type="email" name="email" id="email" required>
+                </label>
+                <label for="contraseña">
+                    Contraseña:
+                    <input type="password" name="contraseña" id="contraseña" required>
+                </label>
+                <button type="submit">registrarse</button>
+            </form>
 
         </section>
 
