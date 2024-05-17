@@ -1,3 +1,13 @@
+:root {
+    --color--naranja: #D98E04;
+    --color--amarillo: #EFBD27;
+    --color--noblanco: #f2f2f2 ; 
+}
+
+@font-face {
+    font-family: "font";
+    src: url("/assets/Fractured\ Fir.otf");
+}
 * {
     font-size: 16px;
     font-weight: 400;
@@ -21,12 +31,31 @@ h2 {
 h3 {
     font-size: 32px;
     font-weight: 500;
+    font-family: "font";
+}
+
+.button {
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: solid 2px transparent;
+
+
+    background-image: linear-gradient( 60deg, var(--color--naranja), var(--color--amarillo)) ;
+
+    font-weight: 700;
+    color: #f2f2f2;
+    
+}
+
+.icons {
+    height: 56px;
 }
 
 .navbar__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(220, 220, 220, 0.621);
 }
 
 .navbar__nav__list {
@@ -35,21 +64,23 @@ h3 {
     ;
 }
 
-.papa {
-    display: flex;
-    align-items: center;
-    
+
+.Jumbotron {
+    background-image:url('/assets/6f8ed4a6-b1e9-40ba-9d7d-81cd4a0110a3.jpg') ;
+    background-size: cover ;
+    background-position: center; 
+    height: 500px;
+
 }
 
-.papa1 {
-    display: flex;
-}
 
-.papa3 {
+.footer__nav {
     display: flex;
+    align-items: end;
+    justify-content: space-between;
 }
-
-.papa4 {
+.footer__nav__ul{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+
 }
