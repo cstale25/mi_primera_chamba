@@ -14,8 +14,8 @@
 }
 
 h2 {
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 46px;
+    font-weight: 600;
 }
 
 h3 {
@@ -35,6 +35,21 @@ h3 {
     ;
 }
 
-.Jumbotron {
+.papa {
+    display: flex;
+    align-items: center;
     
+}
+
+.papa1 {
+    display: flex;
+}
+
+.papa3 {
+    display: flex;
+}
+
+.papa4 {
+    display: flex;
+    align-items: center;
 }

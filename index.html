@@ -49,7 +49,7 @@
 
 <body>
 
-    <header class="navbar"> 
+    <header class="navbar">
 
         <nav class="navbar__nav">
 
@@ -83,11 +83,11 @@
 
         <section>
 
-            <!-- <h3>Por que preferirnos?</h3> -->
+            <h2>¿Por qué preferirnos?</h2>
 
-            <div>
+            <div class="papa">
 
-                <div>
+                <div class="hijo1"> 
                     <p>Sabor Inigualable: Ingredientes frescos y de alta calidad, recetas caseras con sazón única,
                         variedad
                         para todos los gustos. </p>
@@ -98,7 +98,7 @@
 
                 <img src="/assets/6f8ed4a6-b1e9-40ba-9d7d-81cd4a0110a3.jpg" alt="hamburguesa animada">
 
-                <div>
+                <div class="hijo2">
                     <p>Compromiso con la Comunidad:
                         Apoyamos a los productores locales y utilizamos ingredientes frescos de la región; E
                         Implementamos
@@ -111,20 +111,20 @@
 
         </section>
 
-        <section>
+        <section class="papa1">
 
-            <div>
+            <div class="hijo_1">
                 <h3>Más Allá del Sabor</h3>
                 <p>La comida rápida no solo se trata de sabor. El ambiente, la música y la experiencia general juegan un
                     papel importante en la satisfacción del cliente.</p>
             </div>
-            <div>
+            <div class="hijo_2">
                 <h3>Amor y Odio</h3>
                 <p>La comida rápida despierta pasiones encontradas. Algunos la adoran por su practicidad y sabor,
                     mientras
                     que otros la critican por su alto contenido calórico.</p>
             </div>
-            <div>
+            <div class="hijo_3">
                 <h3>Más que solo comida</h3>
                 <p>Los restaurantes de comida rápida son lugares de encuentro para socializar, disfrutar de un ambiente
                     familiar o simplemente para tomar un descanso rápido.</p>
@@ -133,7 +133,7 @@
         </section>
 
         <section>
-            <h3>Sobre nosotros</h3>
+            <h2>Sobre nosotros</h2>
 
             <div>
                 <div>
@@ -163,9 +163,9 @@
         </section>
 
         <section>
-            <h3>Hamburguesas</h3>
+            <h2>Hamburguesas</h2>
 
-            <div>
+            <div class="papa3">
 
                 <div>
                     <h4>Burguerclassic</h4>
@@ -230,24 +230,26 @@
             </div>
         </section>
 
-        <section>
+        <section class="papa4">
 
             <img src="/assets/ce2361f5-6b99-4b8d-8c9c-57c5ffd490ce.jpg"
                 alt="Eleccion de ingredientes de tu propia hamburguesa">
 
             <div>
-                <h3>También puedes elegir los ingredientes que más te gusten y arma tu hamburguesa ideal.</h3>
+                <h4>También puedes elegir los ingredientes que más te gusten y arma tu hamburguesa ideal.</h4>
                 <div>
-                    for
+                    <form action="/">
+                        <input type="text">
+                    </form>
                 </div>
             </div>
 
         </section>
 
-        <section>
+        <section class="papa5">
 
             <img src="/assets/WhatsApp Image 2024-04-26 at 8.31.41 AM.jpeg" alt="hamburguesa con acompañanes">
-            <h2>Servicio de Delivery </h2>
+            <h3>Servicio de Delivery</h3>
             <p>Deleita tu paladar con el sabor inigualable de nuestras hamburguesas sin salir de casa. Tu comodidad es
                 nuestra prioridad, por eso habilitamos nuestro servicio de delivery. Con solo una llamada, puedes
                 disfrutar
@@ -260,80 +262,14 @@
 
         </section>
 
-        <section>
-            <!--  -->
-            <form action="/">
-                <input type="text" name="texto">
-            </form>
-
-            <!--  -->
-            <form action="" method="get">
-                <input type="text" name="nombre">
-                <input type="number" name="numeros">
-                <input type="date" name="fechas">
-
-                <button type="submit">ENVIAR</button>
-            </form>
-
-            <!-- Formulario de Labels -->
-            <form action="/" method="post">
-                <label for="nombre">
-                    Nombre:
-                    <input type="hamburguesa" name="nombre" id="nombre" required>
-                </label>
-
-                <label for="email">
-                    <input type="email" name="email" id="email" required>
-                </label>
-
-                <label for="pass">
-                    Contraseña:
-                    <input type="password" name="pass" id="pass" required placeholder="que no sea 1234">
-                </label>
-
-                <label for="nacimiento">
-                    Fecha de nacimiento:
-                    <input type="date" name="nacimie" id="nacimiento" required>
-                </label>
-
-                <label for="telefono">
-                    Telefono:
-                    <input type="tel" name="telefono" id="teleofno" required>
-                </label>
-
-                <label for="condiciones">
-                    Aceptas los terminos y condiciones
-                    <input type="checkbox" name="condiciones" id="condiciones">
-                </label>
-
-                <button type="submit">Registrarse</button>
-
-                <!-- Formulario para searchbar -->
-
-
-            </form>
-
-            <form action="https://reqres.in/api/login" method="post">
-                <label for="email">
-                    Correo Electronico:
-                    <input type="email" name="email" id="email" required>
-                </label>
-                <label for="contraseña">
-                    Contraseña:
-                    <input type="password" name="contraseña" id="contraseña" required>
-                </label>
-                <button type="submit">registrarse</button>
-            </form>
-
-        </section>
 
     </main>
 
     <footer>
         <nav>
-            <div>
+            <div class="papa6">
 
-                <div>
+                <div class="hijo__1">
 
                     <ul>
                         <il>Politica de privacidad</il>
@@ -341,7 +277,7 @@
                         <il>Términos y condiciones</il>
                     </ul>
                 </div>
-                <div>
+                <div class="hijo__2">
                     <img src="/assets/twitter.svg" alt="twitter">
                     <img src="/assets/instagram.svg" alt="instagram">
                     <img src="/assets/facebook.svg" alt="facebook">
