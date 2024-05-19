@@ -23,6 +23,11 @@
     outline: unset;
 }
 
+h1 {
+    font-size: 46px;
+    font-weight: 800;
+}
+
 h2 {
     font-size: 46px;
     font-weight: 600;
@@ -49,38 +54,54 @@ h3 {
 
 .icons {
     height: 56px;
+
 }
 
 .navbar__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(220, 220, 220, 0.621);
+
+    padding: 15px 30px;
+
+    color: #f2f2f2;
+    background-color: #1e1e1ecc;
+    
 }
 
 .navbar__nav__list {
     display: flex;
-    gap: 15px
-    ;
+    gap: 15px;
 }
 
+.bar__img {
+    background-image: url("/assets/pexels-valeriya-1639562.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
 
 .Jumbotron {
-    background-image:url('/assets/6f8ed4a6-b1e9-40ba-9d7d-81cd4a0110a3.jpg') ;
-    background-size: cover ;
-    background-position: center; 
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    
+
+    margin: 60px;
+    padding: 0px 350px;
+
+
+    color: #f2f2f2;
 
 }
-
+    
 
 .footer__nav {
-    display: flex;
+    display: flex ;
     align-items: end;
     justify-content: space-between;
 }
 .footer__nav__ul{
     display: flex;
     flex-direction: column;
-
 }
