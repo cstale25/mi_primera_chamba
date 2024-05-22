@@ -3,6 +3,7 @@
     --color--amarillo: #EFBD27;
     --color--noblanco: #f2f2f2 ; 
     --color--oscuro: #1c1512 ;
+    --color--vinotinto: #730202 ;
 }
 
 @font-face {
@@ -26,7 +27,7 @@
 
 
 h2 {
-    font-size: 46px;
+    font-size: 32px;
     font-weight: 550;
     text-align: center;
     padding: 15px 30px;
@@ -38,6 +39,10 @@ h3 {
     font-size: 32px;
     font-weight: 500;
     font-family: "font";
+}
+
+b {
+    font-weight: bold;
 }
 
 .button {
@@ -56,6 +61,12 @@ h3 {
 .icons {
     height: 56px;
 
+}
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .navbar__nav {
@@ -85,9 +96,13 @@ h3 {
     display: flex;
     flex-direction: column;
     padding: 200px 60px;
-    padding-right: 50%;
     color: #f2f2f2;
 
+}
+
+.Jumbotron h1,
+.Jumbotron p {
+    max-width: 500px;
 }
 .Jumbotron h1,
 .Jumbotron span {
@@ -111,27 +126,54 @@ h3 {
     object-fit: cover;
 }
 .razones div {
-    padding: 0 60px;
+    padding: 0 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 25px;
+    text-align: center;
+    background-image: url(/assets/Frame\ 3.jpg);
+    color: #f2f2f2;
 }
+
+
 
 
 .tarjetas {
     display: grid;
     grid-template-columns: repeat(  auto-fit,   minmax(  300px, 1fr  )     ) ;
-
+    
 }
 .tarjetas__tarjeta {
-    padding: 20px;
+    padding: 30px 60px;
+    text-align: center;
+    background-color: #EFBD27;
+    color: #f2f2f2;
+}
+
+.tarjetas__tarjeta__blanca {
+    padding: 30px 60px;
+    text-align: center;
+    
 }
 
 .informacion {
     display: flex;
-    align-items: center;   
+    
+    
+}
 
+.informacion__texto, .img_3 {
+    width: 50%;
+}
+
+.informacion__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 130px;
+    gap: 20px ;
+    text-align: center;
 }
 
 .img_3 {
@@ -139,9 +181,17 @@ h3 {
     width: 652px;
 }
 
+.banner {
+    background-color: var(--color--vinotinto);
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 32px;
+    padding: 30px 60px
+}
+
 .menu {
     display: flex;
-    
+    text-align: center;
 }
 
 .img_2 {
