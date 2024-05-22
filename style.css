@@ -25,11 +25,6 @@
 }
 
 
-h1 {
-    font-size: 46px;
-    font-weight: 800;
-}
-
 h2 {
     font-size: 46px;
     font-weight: 550;
@@ -84,36 +79,53 @@ h3 {
     background-image: url("/assets/pexels-valeriya-1639562.jpg");
     background-size: cover;
     background-position: center;
-    height: 647px;
 }
 
 .Jumbotron {
     display: flex;
     flex-direction: column;
-    text-align: start;
-
-    
-
-    margin: 60px;
-    padding-right: 760px ;
-
-
+    padding: 200px 60px;
+    padding-right: 50%;
     color: #f2f2f2;
 
 }
-
-.razones {
-    display: flex;
-    align-items: center ;
-    text-align: center;
-} 
-
-.img_1 {
-    width: 570px;
+.Jumbotron h1,
+.Jumbotron span {
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 100%;
+}
+.Jumbotron span {
+    color: #EFBD27;
 }
 
-.tarjetas {
+.razones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-auto-rows: 400px;
+} 
+.razones img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.razones div {
+    padding: 0 60px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(  auto-fit,   minmax(  300px, 1fr  )     ) ;
+
+}
+.tarjetas__tarjeta {
+    padding: 20px;
 }
 
 .informacion {
