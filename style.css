@@ -2,6 +2,7 @@
     --color--naranja: #D98E04;
     --color--amarillo: #EFBD27;
     --color--noblanco: #f2f2f2 ; 
+    --color--oscuro: #1c1512 ;
 }
 
 @font-face {
@@ -23,6 +24,7 @@
     outline: unset;
 }
 
+
 h1 {
     font-size: 46px;
     font-weight: 800;
@@ -30,7 +32,11 @@ h1 {
 
 h2 {
     font-size: 46px;
-    font-weight: 600;
+    font-weight: 550;
+    text-align: center;
+    padding: 15px 30px;
+    color: #f2f2f2;
+    background-color: #1c1512 ;
 }
 
 h3 {
@@ -74,27 +80,61 @@ h3 {
     gap: 15px;
 }
 
-.bar__img {
+.header__img {
     background-image: url("/assets/pexels-valeriya-1639562.jpg");
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 647px;
 }
 
 .Jumbotron {
     display: flex;
     flex-direction: column;
     text-align: start;
+
     
 
     margin: 60px;
-    padding: 0px 350px;
+    padding-right: 760px ;
 
 
     color: #f2f2f2;
 
 }
+
+.razones {
+    display: flex;
+    align-items: center ;
+    text-align: center;
+} 
+
+.img_1 {
+    width: 570px;
+}
+
+.tarjetas {
+    display: flex;
+}
+
+.informacion {
+    display: flex;
+    align-items: center;   
+
+}
+
+.img_3 {
+    height: 419px;
+    width: 652px;
+}
+
+.menu {
+    display: flex;
     
+}
+
+.img_2 {
+    height: 178px;
+}
 
 .footer__nav {
     display: flex ;
