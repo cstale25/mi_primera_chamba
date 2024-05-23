@@ -51,7 +51,7 @@ h4 {
 
 h6 {
     font-size: 46px;
-    font-weight: 600;
+    font-weight: 800;
     color: #f2f2f2;
 }
 
@@ -240,7 +240,12 @@ b {
 .menu__tarjeta__precio {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
+}
+
+.menu__tarjeta__precio span {
+    opacity: 1 ;
 }
 
 .pedidos {
@@ -251,7 +256,7 @@ b {
 }
 
 .pedidos__bar {
-    padding: 20px 40px;
+    padding: 40px 70px;
 }
 
 .pedidos img {
