@@ -4,6 +4,7 @@
     --color--noblanco: #f2f2f2 ; 
     --color--oscuro: #1c1512 ;
     --color--vinotinto: #730202 ;
+    --color--negrononegro: #0D0D0D ;
 }
 
 @font-face {
@@ -36,9 +37,22 @@ h2 {
 }
 
 h3 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 500;
     font-family: "font";
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #D98E04;
+    padding: 10px 15px;
+}
+
+h6 {
+    font-size: 46px;
+    font-weight: 600;
+    color: #f2f2f2;
 }
 
 b {
@@ -56,6 +70,25 @@ b {
     font-weight: 700;
     color: #f2f2f2;
     
+}
+
+.button__dos {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: solid 2px transparent;
+    background-color: #D98E04;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 16px; 
+}
+
+.button__trui {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: solid 2px transparent;
+    background-color: #730202;
+    font-weight: bold;
+    color: #f2f2f2;
 }
 
 .icons {
@@ -178,7 +211,7 @@ b {
 
 .img_3 {
     height: 419px;
-    width: 652px;
+    width: 652px 50%
 }
 
 .banner {
@@ -190,8 +223,55 @@ b {
 }
 
 .menu {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
     text-align: center;
+    gap: 20px;
+    padding: 50px 80px;
+    
+}
+
+.menu__tarjeta p {
+    opacity: .65 ;
+   
+}
+
+.menu__tarjeta__precio {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.pedidos {
+    display: flex;
+    align-items: center;
+    background-image: url(/assets/Formulario.jpg);
+    padding: 0px 50px;
+}
+
+.pedidos__bar {
+    padding: 20px 40px;
+}
+
+.pedidos img {
+    width: 40%;
+}
+
+.delivery {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px 300px;
+    gap: 30px;
+    background-color: #0D0D0D;
+    color: #f2f2f2;
+    text-align: center;
+
+}
+
+.delivery img {
+    width: 500px;
 }
 
 .img_2 {
@@ -200,10 +280,15 @@ b {
 
 .footer__nav {
     display: flex ;
-    align-items: end;
+    align-items: center ;
     justify-content: space-between;
+    padding: 40px 70px;
+    background-color: #0D0D0D;
+    color: #f2f2f2;
 }
 .footer__nav__ul{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
+
