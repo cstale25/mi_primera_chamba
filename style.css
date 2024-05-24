@@ -241,6 +241,7 @@ b {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-grow: 1;
     
 }
 
@@ -295,5 +296,13 @@ b {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.input__detalle {
+    padding: 24px;
+    background-color: #0D0D0D;
+    width: 100%;
+    border: none;
+    margin-top: 24px;
 }
 
