@@ -116,7 +116,7 @@ b {
 
 .navbar__nav__list {
     display: flex;
-    gap: 15px;
+    gap: 40px;
 }
 
 .header__img {
@@ -232,8 +232,16 @@ b {
     
 }
 
+.menu__tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
 .menu__tarjeta p {
     opacity: .65 ;
+    
    
 }
 
@@ -241,12 +249,12 @@ b {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-grow: 1;
-    
+    padding: 0px 15px;
+    font-size: 20px;
 }
 
 .menu__tarjeta__precio span {
-    opacity: 1 ;
+    font-weight: bold;
 }
 
 .pedidos {
